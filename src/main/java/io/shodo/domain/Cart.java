@@ -45,4 +45,11 @@ public class Cart {
     public int hashCode() {
         return Objects.hash(price);
     }
+
+    @Override
+    public String toString() {
+        return "Cart{" +
+                "price=" + price +
+                '}';
+    }
 }
